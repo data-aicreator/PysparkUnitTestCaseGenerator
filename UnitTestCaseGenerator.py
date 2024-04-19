@@ -10,7 +10,7 @@ API_KEY = os.environ.get("GOOGLE_API_KEY")
 # Configure Gemini Pro API with the API key
 genai.configure(api_key=API_KEY)
 
-st.image("../pics/capgemini.png", width=200)
+#st.image("../pics/capgemini.png", width=200)
 
 def main():
     # st.title("COBOL to PySpark Code Converter")
